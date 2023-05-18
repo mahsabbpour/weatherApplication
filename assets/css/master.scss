@@ -1,0 +1,73 @@
+body {
+    font-family: 'Alkatra', cursive !important;
+    background-image: url(../img/beautiful-shot-pink-purple-clouds-sky-clear-blue-background_181624-2078.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh !important;
+    background-position: center;
+    width: 100%;
+    background-position: top;
+
+
+
+
+
+    li {
+        list-style-type: none;
+    }
+
+
+    h1 {
+        font-size: 60px !important;
+    }
+
+    .line {
+        height: 2px;
+       background:  rgba(240, 230, 140, 0.584);
+    }
+    #box{
+       @media screen and (min-width:992px) {
+        margin-right: 120px !important;
+       }
+    }
+  
+    #list {
+        margin-right: 100px !important;
+        border-radius: 10px;
+        transition: 1s;
+        margin-top: 5px;
+        border: 1px solid khaki;
+        background-color: rgba(117, 130, 143, 0.708) !important;
+       *{
+       color: khaki !important;
+       }
+    }
+
+    input {
+        background-color: rgba(117, 130, 143, 0.708) !important;
+
+        &::placeholder {
+            color: rgba(240, 230, 140, 0.584);
+        }
+
+        color: khaki !important;
+        margin: 0em;
+        padding: 1px 2px;
+        border-width: 0;
+        border-style: none;
+        border-image: none;
+        outline: none !important;
+    }
+
+    button {
+        outline: none !important;
+        background-color: rgb(10, 66, 121) !important;
+        color: khaki !important;
+        transition: .4s;
+
+        &:hover {
+            background-color: khaki !important;
+            color: rgb(10, 66, 121) !important;
+        }
+    }
+}
