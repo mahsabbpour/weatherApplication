@@ -1,6 +1,6 @@
 # weatherApplication
 
-- [Demo Project](  https://mahsabbpour.github.io/WebApplication/)
+- [Demo Project](   https://mahsabbpour.github.io/weatherApplication/)
 
 - Developed by Mahsa Babapour
 
